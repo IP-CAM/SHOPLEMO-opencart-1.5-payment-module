@@ -7,7 +7,7 @@ if ($shoplemo_response['status'] == 'success')
 	<iframe src="<?php echo $shoplemo_response['url']; ?>" id="shoplemoiframe" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
 	<script type="text/javascript">
 	setTimeout(function(){ 
-		iFrameResize({ log: true },'#shoplemoiframe');
+		iFrameResize({},'#shoplemoiframe');
 	}, 1000);
 	</script>
 </div>
